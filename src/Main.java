@@ -53,6 +53,21 @@ public class Main {
 
         System.out.println("el resultado es "+x);*/
 
+    boolean[][] data = {{false,false,false},
+                        {false,false,true},
+                        {false,true,false},
+                        {false,true,true},
+                        {true,false,false},
+                        {true,false,true},
+                        {true,true,true}};
+    for(int i =0; i<data.length; i++){
+        for(int j=0; j<data.length; i++){
+            System.out.println(data[i][j]);
+
+
+        }
+
+    }
 
 
 
